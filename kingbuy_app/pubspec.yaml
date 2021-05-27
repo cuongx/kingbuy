@@ -1,0 +1,159 @@
+name: kingbuy_app
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Common
+  webview_flutter: 2.0.4
+  responsive_builder: ^0.3.0
+  cupertino_icons: ^1.0.0
+  firebase_auth:
+  flutter_secure_storage:
+  share:
+  flutter_elegant_number_button :
+  cloud_firestore:
+#  custom_switch:
+  responsive_flutter: ^0.0.4
+  custom_switch_button:
+  auto_size_text: ^2.1.0
+  provider: ^4.3.2+2
+  google_maps_flutter:
+  badges: ^1.2.0
+  flutter_switch:
+#  avatar_view: ^1.0.0+3
+  convert: ^2.1.1
+  loadmore: ^1.0.4
+  after_layout:
+  loading_alert_dialog: ^0.1.0
+  focused_menu: ^1.0.2
+  loading: ^1.0.2
+  http: ^0.12.2
+  image_picker: ^0.6.7+6
+  firebase_storage:
+  geolocator:
+  flutter_picker:
+  flutter_hl_vnpay:
+  url_launcher:
+  carousel_slider: ^2.3.1
+  flutter_simple_treeview: ^2.0.2
+  flutter_svg:
+  getwidget:
+  grouped_buttons: ^1.0.4
+  rflutter_alert:
+  sizer:
+  flutter_statusbarcolor: ^0.2.3
+  cached_network_image:
+#  readmore:
+  flutter_easyloading:
+  loading_gifs:
+  google_fonts:
+  flutter_dash: ^0.0.1
+  barcode:
+  image:
+  path_provider:
+  page_indicator:
+  smooth_star_rating: ^1.1.1
+#  youtube_player_flutter:
+  loading_animations: ^2.1.0
+  flutter_html: ^0.11.1
+  html: 0.14.0+3
+  flutter_widget_from_html_core: ^0.4.1
+  flutter_icons:
+  intl: ^0.16.1
+  toast:
+  get:
+
+  #  Network
+  dio:
+  connectivity: ^0.4.9+5
+
+  #  BloC
+  #  equatable: ^1.2.4
+  #  flutter_bloc: ^6.0.5
+
+  #  Sqlite - Local prefrences
+  #  moor: ^3.3.1
+  shared_preferences: ^0.5.10
+  rx_shared_preferences: ^1.3.1
+
+  #Notification
+  flutter_local_notifications: ^3.0.2
+  firebase_messaging: ^7.0.3
+
+  #Login social
+  google_sign_in: ^4.5.9
+  flutter_facebook_login: ^3.0.0
+  apple_sign_in: ^0.1.0
+
+  #Firebase
+  firebase_analytics: ^6.3.0
+  firebase_core: ^0.5.3
+
+  #Other
+  flutter_staggered_animations: ^0.1.2
+  shimmer: ^1.1.2
+  modal_bottom_sheet: ^1.0.0+1
+  flutter_slidable: ^0.5.7
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides :
+  intl : 0.17.0-nullsafety.2
+  flutter_svg: ^0.20.0-nullsafety.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/langs/
+    - assets/icons/
+    - assets/icons2/
+    - assets/images/
+    - assets/logo/
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Sunshiney
+      fonts:
+        - asset: assets/fonts/Sunshiney/Sunshiney-Regular.ttf
+    - family: Xanh_Mono
+      fonts:
+          - asset: assets/fonts/Xanh_Mono/XanhMono-Italic.ttf
+    - family: Noto_Serif
+      fonts:
+          - asset: assets/fonts/Noto_Serif/NotoSerif-BoldItalic.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "30072595706",
+    "project_id": "kingbuy-flutter",
+    "storage_bucket": "kingbuy-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30072595706:android:3f630b243830b2eef21543",
+        "android_client_info": {
+          "package_name": "com.example.kingbuy_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30072595706-iuat573s928qhr049m53ighq08luortc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kingbuy_app",
+            "certificate_hash": "d144143858e5ff684e188627864f9a91079f0126"
+          }
+        },
+        {
+          "client_id": "30072595706-sl85knmoi2oecij63j7e564n9057dh8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuyW4Ex6yck7zdCxCCC_V5bIpEm65H4qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30072595706-sl85knmoi2oecij63j7e564n9057dh8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
